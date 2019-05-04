@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css?family=Lilita+One|Montserrat:400,700");
+body {
+  background: #fff;
+}
+
+#hero-section .hero-image, #hero-section .hero-content {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#main-header {
+  width: 100%;
+  padding: 25px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#main-header nav {
+  height: 100%;
+  padding: 15px 0;
+}
+
+#main-header nav ul {
+  height: 100%;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main-header nav li {
+  float: left;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+#main-header nav li.button-login, #main-header nav li.button-signup {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#main-header nav li.button-signup {
+  background: #fff;
+}
+
+#main-header nav li.button-signup a {
+  color: #333;
+  font-weight: bold;
+}
+
+#main-header nav a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+}
+
+#main-header nav a:hover {
+  text-decoration: none;
+}
+
+#hero-section {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/bg-slider.png) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#hero-section .hero-image {
+  position: absolute;
+  right: 120px;
+  margin-top: 30px;
+}
+
+#hero-section .hero-content {
+  margin-top: 30px;
+}
+
+#hero-section .hero-content h1 {
+  font-family: "Lilita One", cursive;
+  font-size: 55px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#hero-section .hero-content h2 {
+  font-family: "Lilita One", cursive;
+  font-size: 45px;
+  color: #fff;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#hero-section .hero-content p {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  width: 50%;
+}
+
+#hero-section .hero-content ul {
+  list-style: none;
+  margin: 80px 0;
+  padding: 0;
+}
+
+#hero-section .hero-content ul li {
+  margin-right: 30px;
+  display: inline;
+}
+
+#about-section {
+  background: #fff;
+  margin-top: 150px;
+}
+
+#about-section h1 {
+  font-family: "Lilita One", cursive;
+  font-size: 55px;
+  color: #059e1a;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+#about-section p {
+  font-family: "Montserrat", sans-serif;
+  color: #1b2220;
+  font-size: 18px;
+}
+
+#about-section li {
+  list-style-type: none;
+  float: left;
+  color: #353737;
+}
+
+#about-section #arrowId {
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+#work-section {
+  margin-top: 80px;
+}
+
+#work-section h1 {
+  font-family: "Lilita One", cursive;
+  font-size: 55px;
+  color: #059e1a;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+#work-section p {
+  font-family: "Montserrat", sans-serif;
+  color: #1b2220;
+  font-size: 20px;
+}
+
+#body-section {
+  margin-top: 100px;
+}
+
+#body-section ul {
+  list-style-type: none;
+}
+
+#body-section h1 {
+  font-family: "Lilita One", cursive;
+  font-size: 30px;
+  color: #686868;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+#body-section span {
+  color: #068d1a;
+}
+
+#body-section p {
+  font-family: "Montserrat", sans-serif;
+  color: #1b2220;
+  font-size: 14px;
+}
+
+#body-section .left-heading1 {
+  margin-top: 100px;
+}
+
+#body-section .right-heading1 {
+  margin-top: -100px;
+}
+
+#body-section .left-heading2 {
+  margin-top: 400px;
+}
+
+#body-section .right-heading2 {
+  margin-top: 200px;
+}
+
+#body-section li {
+  list-style-type: none;
+  float: left;
+  color: #353737;
+}
+
+#body-section #arrowId {
+  padding-left: 15px;
+  padding-top: 5px;
+}
+/*# sourceMappingURL=main.css.map */
